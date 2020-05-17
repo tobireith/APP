@@ -19,7 +19,7 @@ git init						-> Erzeugt ein neues leeres Repository in aktuellem Ordner / Pfad
 git clone (URL vom Repository)				-> Klont / lädt ein Repository von einer URL
 
 git fetch
-git pull (URL vom Repository)				-> holt das Repository runter (Mergen?)
+git pull (URL vom Repository)				-> holt das Repository runter (Mergen?) mit git status bei Fehlern überprüfen
 
 
 Für SSH-Key : https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
