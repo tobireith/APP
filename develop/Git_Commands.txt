@@ -1,0 +1,25 @@
+cd /c/Studium/ZAPP_App_Programmierung/GitRepository
+git status
+
+git add .						-> Fügt Dateien der Staging-Area hinzu (vor commit)
+git rm --cached <file>					-> Entfernt ein File wieder aus der Staging-Area
+git commit -a("Append") -m("Message) "Nachricht"	-> commitet die Daten lokal
+git remote add origin (URL vom Repository)		-> setzt den origin pfad
+git remote -v						-> anzeige für push & pull pfad
+git push -u("--set-upstream") origin master		-> pusht die commits auf das gewählte Repository unter dem master-branch (Fürs erste mal)
+git push 
+
+git checkout -b develop master				-> legt einen neuen branch an der sich vom master branch ableitet
+git branch						-> zeigt aktuelle branches an
+git checkout master					-> wechselt zu master branch
+git merge --no-ff feature/my_feature			-> übernimmt Änderungen von my_feature branch in z.B. master branch -> Commit message angeben
+git branch -d feature/my_feature			-> löscht den feature/my_feature branch
+
+git init						-> Erzeugt ein neues leeres Repository in aktuellem Ordner / Pfad
+git clone (URL vom Repository)				-> Klont / lädt ein Repository von einer URL
+
+git fetch
+git pull (URL vom Repository)				-> holt das Repository runter (Mergen?)
+
+
+Für SSH-Key : https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
