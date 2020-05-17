@@ -16,7 +16,11 @@ git merge --no-ff feature/my_feature			-> übernimmt Änderungen von my_feature 
 git branch -d feature/my_feature			-> löscht den feature/my_feature branch
 
 git init						-> Erzeugt ein neues leeres Repository in aktuellem Ordner / Pfad
+<<<<<<< HEAD
 git clone (URL vom Repository)				-> Klont / lädt ein Repository von einer URL
+=======
+git clone (URL vom Repository)				-> Klont / lädt ein
+>>>>>>> 4fa61cde92d1fa89d8f69e3bcab2578365ca1dfb
 git fetch
 git pull
 
