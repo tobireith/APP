@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="all"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_nav_view_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        <!-- Further items -->
+    </group>
+    <group
+        android:checkableBehavior="none"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/menu_nav_view_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+</menu>
