@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Uebung4</string>
+    <string name="open_drawer">Open navigation</string>
+    <string name="close_drawer">Close navigation</string>
+
+    <string name="main_activity">This is the main Activity!</string>
+    <string name="dashboard_name">Dashboard</string>
+    <string name="fragment_dashboard">This is the Fragment Dashboard</string>
+    <string name="settings_name">Settings</string>
+    <string name="fragment_settings">This is the Fragment Settings</string>
+    <string name="info_name">Info</string>
+    <string name="fragment_info">This is the Fragment Info</string>
+</resources>

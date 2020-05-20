@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="all"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_nav_view_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard_name" />
+        <!-- Further items -->
+    </group>
+    <group
+        android:checkableBehavior="none"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/menu_nav_item_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/info_name"/>
+        <item
+            android:id="@+id/menu_nav_item_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings_name" />
+    </group>
+</menu>
